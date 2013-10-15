@@ -1,4 +1,4 @@
-should = require 'should'
+should = (require 'chai').should()
 fs = require 'fs'
 path = require 'path'
 csso = require '../index'
@@ -11,7 +11,7 @@ describe 'basic', ->
 		expected = fs.readFileSync(path.join(__dirname, 'expected/basic.css'), 'utf8')
 
 		stylus(source).use(csso()).render (err, out) ->
-			should.equal(out, expected)
+			out.should.equal(expected)
 			done()
 
 	it 'disables restructure', (done) ->
@@ -19,5 +19,5 @@ describe 'basic', ->
 		expected = fs.readFileSync(path.join(__dirname, 'expected/norestructure.css'), 'utf8')
 
 		stylus(source).use(csso({restructure: false})).render (err, out) ->
-			should.equal(out, expected)
+			out.should.equal(expected)
 			done()

@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "stylus": "~0.38.0",
-    "should": "~2.0.1",
     "mocha": "~1.13.0",
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "chai": "~1.8.1"
   },
   "keywords": [
     "stylus",
