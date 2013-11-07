@@ -1,7 +1,7 @@
 {
   "name": "csso-stylus",
   "description": "CSSO plugin for Stylus.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/sapegin/csso-stylus",
   "author": {
     "name": "Artem Sapegin",
