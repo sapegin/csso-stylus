@@ -24,8 +24,8 @@ module.exports = function(options) {
 	};
 
 	return function(style){
-		style.on('end', function(css, callback) {
-			callback(null, processCsso(css, options));
+		this.on('end', function(err, css) {
+			return processCsso(css, options);
 		});
 	};
 };

@@ -29,11 +29,11 @@
   },
   "dependencies": {
     "merge": "~1.1.2",
-    "csso": "~1.3.8"
+    "csso": "~1.3.9"
   },
   "devDependencies": {
-    "stylus": "~0.38.0",
-    "mocha": "~1.13.0",
+    "stylus": "~0.40.0",
+    "mocha": "~1.14.0",
     "coffee-script": "~1.6.3",
     "chai": "~1.8.1"
   },
