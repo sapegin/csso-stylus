@@ -62,12 +62,9 @@ use: [
 ```
 
 
-## Release History
+## Changelog
 
-### 2013-10-15 v0.0.1
-
-* First release.
-
+The changelog can be found in the Changelog.md file.
 
 ---
 
