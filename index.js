@@ -23,7 +23,7 @@ module.exports = function(options) {
 		}
 	};
 
-	return function(style){
+	return function(){
 		this.on('end', function(err, css) {
 			return processCsso(css, options);
 		});
