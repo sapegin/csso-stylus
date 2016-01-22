@@ -1,4 +1,7 @@
-# CSSO plugin for Stylus [![Build Status](https://travis-ci.org/sapegin/csso-stylus.png)](https://travis-ci.org/sapegin/csso-stylus)
+# CSSO plugin for Stylus
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![Build Status](https://travis-ci.org/sapegin/csso-stylus.png)](https://travis-ci.org/sapegin/csso-stylus)
 
 A [CSSO](https://github.com/css/csso) plugin for [Stylus](https://github.com/LearnBoost/stylus).
 
